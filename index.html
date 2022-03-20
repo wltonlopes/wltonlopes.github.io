@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="corPrimaria navbar navbar-expand-lg navbar-light">
+    <nav class="corPrimaria navbar navbar-expand-lg navbar-dark nav-position">
         <a class="navbar-brand" href="#">Welton Lopes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,29 +44,29 @@
             </ul>
         </div>
     </nav>
-    <section class="jumbotron text-center">
-        <div class="container">
+    <section class="jumbotron text-center" id="links">
+        <div class="container text-box">
             <img src="./icons/foto.jpeg" class="rounded-circle" alt="Imagem de perfil">
             <h1 class="jumbotron-heading">Welton do Santos Lopes</h1>
-            <p class="lead text-muted">Apaixonado por estudar e sempre adquirir novos conhecimento</p>
+            <p class="lead text-muted">Front End Developer / FullStacK Developer</p>
             <p>
                 <a href="#contato" class="btn btn-dark my-2">Contatos</a>
-            <div id="links">
+            <div>
                 <a class="icons" href="https://br.linkedin.com" target="_blank"><img src="icons/linkedin.png"
-                        alt="gmail" width="50px"> </a>
-                <a class="icons" href="https://github.com/wltonlopes" target="_blank"><img src="icons/whatsapp.png"
-                        alt="whatsapp" width="50px"> </a>
+                        alt="gmail" width="100px"> </a>
+                <a class="icons" href="https://wa.me/5511959586731" target="_blank"><img src="icons/whatsapp.png"
+                        alt="whatsapp" width="100px"> </a>
                 <a class="icons" href="https://github.com/wltonlopes" target="_blank"><img src="icons/github.png"
-                        alt="github" width="50px"> </a>
+                        alt="github" width="100px"> </a>
             </div>
             </p>
         </div>
     </section>
     <section class="details-card">
-        <div class="container">
+        <div class="container" id="projetos">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card-content">
+                    <div class="card-content card-cl">
                         <div class="card-img">
                             <img src="https://placeimg.com/380/230/nature" alt="">
                             <span><h4>Web site Lanchonete</h4></span>
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card-content">
+                    <div class="card-content card-cl">
                         <div class="card-img">
                             <img src="https://placeimg.com/380/230/animals" alt="">
                             <span><h4>heading2</h4></span>
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card-content">
+                    <div class="card-content card-cl">
                         <div class="card-img">
                             <img src="https://placeimg.com/380/230/tech" alt="">
                             <span><h4>heading3</h4></span>
@@ -108,9 +108,14 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <br/>
+                <br/>
+                <br/>
+            </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card-content">
+                    <div class="card-content card-cl">
                         <div class="card-img">
                             <img src="https://placeimg.com/380/230/nature" alt="">
                             <span><h4>Web site Lanchonete</h4></span>
@@ -124,7 +129,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card-content">
+                    <div class="card-content card-cl">
                         <div class="card-img">
                             <img src="https://placeimg.com/380/230/animals" alt="">
                             <span><h4>heading2</h4></span>
@@ -138,7 +143,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card-content">
+                    <div class="card-content card-cl">
                         <div class="card-img">
                             <img src="https://placeimg.com/380/230/tech" alt="">
                             <span><h4>heading3</h4></span>
@@ -153,12 +158,17 @@
                 </div>
             </div>
         </div>
+        <div>
+            <br/>
+            <br/>
+            <br/>
+        </div>
     </section>
     <!-- sobre mim -->
 
     <section class="jumbotron text-center">
-        <div class="container">
-            <h1 class="jumbotron-heading" id="sobremim">Sobre mim</h1>
+        <div class="container page-container" id="sobremim">
+            <h1 class="jumbotron-heading">Sobre mim</h1>
             <p class="lead text-muted">Estudante de Análise e Desenvolvimento de Sistemas.</p>
             <p> Sou Welton dos Santos Lopes um jovem estudante da trybe, <br>
                 apaixonado por tecnologia em busca de novos conhecimentos na área,<br>
@@ -166,34 +176,35 @@
             <p> Sou <strong>brasileiro</strong> e resido atualmente na cidade de <strong>São Paulo-SP</strong>.</p>
     </section>
     <section class="jumbotron text-center corPrimaria">
-        <div class="container">
+        <div class="container page-container text-box">
             <h1 class="jumbotron-heading">Minhas Skills</h1>
-            <h3 id="lead text-muted">Atualmente possuo/estou desenvolvendo habilidades nessas áreas: </h3>
-            <ul>
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Git/Github</li>
-                <li>Markdowm</li>
-                <li>Node</li>
-                <li>SQL</li>
-                <li>ORM</li>
-                <li>React</li>
-                <li>NoSQL</li>
-            </ul>
+            <h3 id="lead text-muted">Atualmente possuo/estou desenvolvendo habilidades nessas áreas: </h3>     
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="zoom"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"class="zoom"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" class="zoom"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="zoom"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="zoom"/>
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" class="zoom"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="zoom"/>
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class="zoom"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="zoom"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" class="zoom"/>
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" class="zoom"/>
     </section>
 
     <section class="jumbotron text-center sec">
-        <div class="container">
+        <div class="container page-container text-box">
             <h1 id="contato" class="jumbotron-heading">Entre em contato comigo</h1>
             <a href="mailto:weltonlopesmetal@gmail.com" target="_blank"
                 class="btn btn-primary my-2"><h3>Meu email</h3></a>
-    </div>
+        </div>
     </section>
     <footer class="text-center corPrimaria sec">
-        <p>Welton Lopes @ 2021</p>
+        <p>Welton Lopes @ 2022</p>
     </footer>
 </body>
-
+<script src="./script.js"></script>
 </html>
