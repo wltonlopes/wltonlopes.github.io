@@ -1,65 +1,34 @@
-body {      
-    background-color:rgb(233, 255, 254);
-    font-family: Arial, Helvetica, sans-serif;
-}
-#fototon{
-    size: 200px;
-    float: left;
-    border-radius: 40%;
-    padding: 10px;
-    background-color: rgb(0, 43, 68);
-}
-.imagcont{
-
-    background-color: rgb(182, 184, 260);
-    height: 225px;
-
+.icons{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
 }
 
-.linkinterno:hover{
-    color: rgb(7, 7, 92);
-}
+ body{
+    color: rgb(177, 177, 177);
+} 
 
-h1{
-    font-size: 45px;
-    color: blanchedalmond;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* .corPrimaria{
+    background-color: #3c773ca8 important;
+} */
 
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: relative;
-    left: 20%;
-}
-.listas{
-    font-style: italic;
-}
-.conteudo{
-    text-align: center;
-}
-ul li:nth-child(odd){
-    color: rgb(54, 54, 54);
-}
+/* .corSecundaria{
+    color: #3c3f3c important;
+} */
 
-
-li:hover{
-    color: rgb(85, 85, 85);
-}
-ul{
-
+li{
     list-style: none;
 }
-
-.inicio{
-    background-color: rgb(4, 59, 110);
-    border: 3px solid rgb(9, 0, 41);
+/* jumbotron{
+    background-color: #03a203;
+    color: rgb(170, 13, 13);
+} */
+html{
+    scroll-behavior: smooth;
 }
-.iconeslinks{
-    text-align: center;
-}
 
-
-.indice{
-    text-align: center;
+sec{
+    padding-top: 25vw;
+    padding-bottom: 25vw;
 }
